@@ -1,0 +1,30 @@
+application: codon-generator
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /api/.*
+  script: main.app
+  secure: always
+
+- url: /
+  static_files: static/index.html
+  upload: static/index.html
+  secure: always
+
+- url: /
+  static_dir: static
+  secure: always
+
+skip_files:
+- ^(.*/)?.*\.md$
+- ^(.*/)?.*\.map$
+- ^(.*/)?\..*$
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+- name: jinja2
+  version: "2.6"

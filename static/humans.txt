@@ -1,0 +1,19 @@
+
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Kartik Mathpal -- Developer -- @kmathpal
+    Abhishek Munie -- Web Developer -- @AbhishekMunie
+    Mayank Lohani  -- Developer -- @knayamlohani
+
+# THANKS
+
+    http://www.wesley.edu/
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    App Engine Python
